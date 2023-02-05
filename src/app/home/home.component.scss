@@ -50,7 +50,7 @@
 .body{   
     display:grid;
     grid-template-columns: 1fr 1fr;
-    width:80%;
+    width:70%;
     margin:0px auto;
     margin-top:150px;
 }
@@ -88,4 +88,23 @@ align-items: center;
 
 .textpack{
     padding:70px 0px;
+}
+
+.curvpack{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.curv{
+  
+    background: #00703C;
+    height:200px;
+    width:200px;
+}
+
+
+.thirdcurv{
+    grid-column: 1 / span 2;
 }
