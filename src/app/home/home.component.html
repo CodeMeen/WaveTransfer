@@ -12,14 +12,38 @@
     </div>
     <br />
     <div class="buttonpack">
-      <button class="sharefile">Share A File</button>
+      <button class="sharefile" (click)="shareFile()">Share A File</button>
     </div>
+
+    <div class="uploadtab">
+      <div class="selecttab">
+       <div class="uploadtext">Upload File</div> 
+       <div class="simpleline"></div>
+
+       <div class="fileplaceholder">
+        +
+       </div>
+
+       <div class="dragtext">Drag a file here or select file</div>
+
+       <div class="simpleline"></div>
+
+    <div class="buttoncont">
+      <button class="selectfile" (click)="selectFile()">Select File</button>
+    </div>
+      
+     
+
+      </div>
+    </div>
+
+
   </div>
 
   <div class="curvpack">
 
     <div class="workswith">
-      Works With
+      Share
     </div>
 
     <div>
@@ -97,6 +121,9 @@
     <div class="star"></div>
   </div>
   
+
+
+
 </div>
 
 <div class="footer">
