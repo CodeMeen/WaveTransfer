@@ -1,0 +1,5 @@
+<div class="dropzone" [ngClass]="{'dragging': dragging}">
+    <div class="dropzone-text">Drag and drop files here</div>
+    <input type="file" multiple [ngModel]="files" (change)="onFileChange($event)" name="filename">
+  </div>
+  
